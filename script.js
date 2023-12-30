@@ -31,7 +31,6 @@ productList.addEventListener("click", (e) => {
 
 // Render cart list
 function renderCart() {
-  console.log(storedSet);
   storedSet.forEach((el) => {
     const product = document.createElement("li");
     product.textContent = document.querySelector(
